@@ -11,6 +11,12 @@ deciding what a vendor's own vocabulary actually *means*.
 against real AWS on 3 of 6 sample invoices — see [Verified against real
 AWS](#verified-against-real-aws) below for the actual results.
 
+## How this was built
+Written over a few days with Claude Code and stayed local. The architecture,
+the trade-off calls in docs/trade-offs.md, and every bug in docs/challenges.md 
+are mine, what I didn't do by hand is the typing. Happy to walk through any 
+decision in here and why the alternative lost.
+
 ---
 
 ## The problem this solves
