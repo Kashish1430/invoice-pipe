@@ -1,5 +1,7 @@
 # invoice_pipe
 
+[![Tests](https://github.com/Kashish1430/invoice-pipe/actions/workflows/tests.yml/badge.svg)](https://github.com/Kashish1430/invoice-pipe/actions/workflows/tests.yml)
+
 A daily-batch pipeline that turns arbitrary multi-vendor PDF invoices into
 typed, FX-normalised, deduplicated records in DynamoDB, using AWS Textract
 for OCR and Claude (via Amazon Bedrock) for the one step OCR can't do:
@@ -52,6 +54,12 @@ S3 (s3://<bucket>/<yyyy>/<mm>/<dd>/*.pdf)     data/raw/*.pdf
                               ▼                            ▼
                      DynamoDB (conditional put)     hard failure
                        ──▶ data/gold/<batch>.jsonl    ──▶ data/quarantine/*.error.json
+                                            │
+                                            ▼
+                              DynamoDB ──▶ natural-language query
+                              (a separate read path -- see "Natural-language
+                              queries" below; nothing above this line changes
+                              to support it)
 ```
 
 Full design rationale — the trade-off analysis behind each stage — lives in
@@ -67,7 +75,7 @@ named in `config/settings.yaml`.
 ```bash
 python -m venv venv && ./venv/Scripts/pip install -e ".[dev]"
 
-pytest                             # 242 tests, no AWS required or touched
+pytest                             # 251 tests, no AWS required or touched
 python -m src.pipeline.run_batch   # processes data/raw/*.pdf against real AWS
 ```
 
@@ -100,6 +108,28 @@ per-invocation) pins it to a specific day for backfills.
 python -m src.stats.batch_stats --month 2026-04
 python -m src.stats.batch_stats --gold data/gold/<batch-id>.jsonl
 ```
+
+### Natural-language queries
+
+```bash
+python -m src.query.nl_query "how many invoices are quarantined?"
+python -m src.query.nl_query "what's the total from Gym Lounge?"
+```
+
+Ask a plain-English question, get a plain-English answer, read against the
+real DynamoDB table. Two Bedrock calls, not one raw query: the first
+(forced tool use, same pattern as the mapping stage) picks *which* of a
+small, fixed set of safe, pre-built read operations answers the question
+(`scan_all` / `query_status` via GSI2 / `query_month` via GSI1) and with
+what parameters -- the model never writes a DynamoDB expression itself,
+only chooses among operations `DynamoStore` already exposes elsewhere in
+this codebase. Any counting or summing runs in plain Python over `Decimal`,
+never in the model, for the same reason `InvoiceRecord` never lets Bedrock
+do money math. The second call phrases the computed result into a sentence,
+using only the numbers Python actually produced.
+
+`src/query/nl_query.py`; not part of the batch pipeline and not reachable
+from `run_batch` -- a separate, interactive read path over the same table.
 
 ---
 
@@ -158,11 +188,26 @@ that no mock could ever reproduce (mocks don't model AWS's actual
 multi-second table-creation delay), and the missing date format above.
 Written up in [`docs/challenges.md`](docs/challenges.md) #18–19.
 
+**Natural-language query, against the live table** — same Zomato record,
+asked in plain English rather than looked up by key:
+
+```
+$ python -m src.query.nl_query "What is the total from Coffee Culture?"
+The total from Coffee Culture is £1.89.
+```
+
+Bedrock chose `scan_all` + `vendor_contains="Coffee Culture"` +
+`aggregation=sum_total_amount` on its own — the question names neither a
+status nor a month, so a full scan with a vendor filter was the reasonable
+call, not a hardcoded mapping for this specific question. £1.89 is exactly
+the converted total from the row above; Python computed it, Bedrock only
+phrased it.
+
 ---
 
 ## Testing
 
-**242 tests, zero AWS cost, zero AWS calls.** `moto` mocks S3 and DynamoDB
+**251 tests, zero AWS cost, zero AWS calls.** `moto` mocks S3 and DynamoDB
 fully; hand-written fakes (`FakeTextract`, `FakeBedrock`) script Textract's
 and Bedrock's real async/retry contracts, since moto doesn't cover either
 service. All of this is test-only — nothing in `src/` or the CLI can reach
@@ -178,6 +223,7 @@ infrastructure, whether it's processing 1 file or 500.
 | Extraction (Textract) | 18 | async polling/pagination, FORMS+TABLES fallback, size limits |
 | Mapping (Bedrock) | 16 | forced tool use, retry/escalation, vendor alias cache |
 | Quarantine/errors | 12 | sidecar rule attribution, serialization safety |
+| Natural-language query | 9 | operation selection, Python-side aggregation, vendor filter, quarantine exclusion |
 
 ```bash
 pytest -q
@@ -219,6 +265,7 @@ src/
   storage/        dynamo_client, key_normalization
   quarantine/     sidecar_writer
   stats/          batch_stats
+  query/          nl_query -- natural-language questions over the live table
   pipeline/       run_batch (orchestrator), errors
 tests/            unit/, integration/, fixtures/ -- moto + fakes, no real AWS
 ```
@@ -297,5 +344,16 @@ sample invoices, not a hypothetical edge case:
   ~1M items, or a need for sub-minute freshness — is a literal field
   (`exceeds_migration_threshold`) computed on every stats run, not a
   judgment call made from memory later.
-- **No CI is wired up.** This isn't yet a git repository, so nothing runs
-  tests automatically on push. `pytest` runs only when invoked locally.
+- **The natural-language query agent has no `docs/tradeoffs.md` /
+  `docs/challenges.md` entry yet** — built and tested (9 tests, `moto` +
+  fake Bedrock) under real time pressure, verified once against real
+  Bedrock + the live table (see [Verified against real
+  AWS](#verified-against-real-aws)), but not documented to the same depth
+  as the rest of the pipeline. Vendor matching is a plain case-insensitive
+  substring, not fuzzy — "gym" won't match "Gymnasium Co." Two Bedrock
+  calls per question roughly doubles the cost/latency of a single mapping
+  call; fine for an interactive tool, not something to put in the daily
+  batch loop.
+- **CI is wired up** (`.github/workflows/tests.yml`, badge above) but is a
+  single Python-3.12/Ubuntu job — no version matrix, no lint/type-check
+  step, just the test suite on every push and PR.
