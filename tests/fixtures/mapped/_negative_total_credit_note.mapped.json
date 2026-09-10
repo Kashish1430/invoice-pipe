@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "date": "23-06-2025",
+    "company_name": "Reliance Smart Point",
+    "buyer_name": "Devki Nath",
+    "invoice_reference_number": "304743",
+    "product_name": "Returned: Grocery Bundle",
+    "product_amount": "1250.00",
+    "total_amount": "-1,250.00",
+    "vat_tax_label": "GST",
+    "vat_tax_percentage": "5%",
+    "vat_tax_amount": "62.50",
+    "coupon_discount_amount": "0",
+    "mode_of_payment": "Card",
+    "currency": "INR"
+  },
+  "source_labels": {
+    "date": "Date",
+    "company_name": "Store",
+    "buyer_name": "Customer",
+    "invoice_reference_number": "Receipt No",
+    "product_name": "Description",
+    "product_amount": "Taxable Value",
+    "total_amount": "Refund Total",
+    "vat_tax_label": "GST 5%",
+    "vat_tax_percentage": "GST 5%",
+    "vat_tax_amount": "GST 5%",
+    "mode_of_payment": "Refund Mode"
+  },
+  "unmapped_metadata": {
+    "reason": "Returned goods - credit note"
+  },
+  "multiple_total_candidates": false,
+  "notes": "Credit note: the printed total is negative.",
+  "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "source": "bedrock",
+  "attempts": 1
+}

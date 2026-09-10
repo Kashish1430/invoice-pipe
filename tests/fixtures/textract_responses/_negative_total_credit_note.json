@@ -1,0 +1,178 @@
+{
+  "JobStatus": "SUCCEEDED",
+  "DocumentMetadata": {
+    "Pages": 1
+  },
+  "ExpenseDocuments": [
+    {
+      "ExpenseIndex": 1,
+      "SummaryFields": [
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Store",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Reliance Smart Point",
+            "Confidence": 97.4
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_ID",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Receipt No",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "304743",
+            "Confidence": 98.1
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_DATE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Date",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "23-06-2025",
+            "Confidence": 97.3
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Customer",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Devki Nath",
+            "Confidence": 95.5
+          }
+        },
+        {
+          "Type": {
+            "Text": "SUBTOTAL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Taxable Value",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "1250.00",
+            "Confidence": 97.0
+          }
+        },
+        {
+          "Type": {
+            "Text": "TAX",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "GST 5%",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "62.50",
+            "Confidence": 96.7
+          }
+        },
+        {
+          "Type": {
+            "Text": "TOTAL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Refund Total",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "-1,250.00",
+            "Confidence": 96.9
+          }
+        },
+        {
+          "Type": {
+            "Text": "PAYMENT_TERMS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Refund Mode",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Card",
+            "Confidence": 96.0
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Reason",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Returned goods - credit note",
+            "Confidence": 94.1
+          }
+        }
+      ],
+      "LineItemGroups": [
+        {
+          "LineItemGroupIndex": 1,
+          "LineItems": [
+            {
+              "LineItemExpenseFields": [
+                {
+                  "Type": {
+                    "Text": "ITEM",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Description",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Returned: Grocery Bundle",
+                    "Confidence": 95.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "PRICE",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Amount",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "-1250.00",
+                    "Confidence": 95.0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

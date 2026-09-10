@@ -1,0 +1,966 @@
+{
+  "JobStatus": "SUCCEEDED",
+  "DocumentMetadata": {
+    "Pages": 1
+  },
+  "Blocks": [
+    {
+      "Id": "page1",
+      "BlockType": "PAGE",
+      "Page": 1
+    },
+    {
+      "Id": "k0",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "KEY"
+      ],
+      "Confidence": 90.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "k0-w0"
+          ]
+        },
+        {
+          "Type": "VALUE",
+          "Ids": [
+            "v0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "v0",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "VALUE"
+      ],
+      "Confidence": 90.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "v0-w0",
+            "v0-w1",
+            "v0-w2",
+            "v0-w3"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "k0-w0",
+      "BlockType": "WORD",
+      "Text": "Seller",
+      "Confidence": 90.0,
+      "Page": 1
+    },
+    {
+      "Id": "v0-w0",
+      "BlockType": "WORD",
+      "Text": "Kalamandir",
+      "Confidence": 90.0,
+      "Page": 1
+    },
+    {
+      "Id": "v0-w1",
+      "BlockType": "WORD",
+      "Text": "Jewellers",
+      "Confidence": 90.0,
+      "Page": 1
+    },
+    {
+      "Id": "v0-w2",
+      "BlockType": "WORD",
+      "Text": "Pvt",
+      "Confidence": 90.0,
+      "Page": 1
+    },
+    {
+      "Id": "v0-w3",
+      "BlockType": "WORD",
+      "Text": "Ltd",
+      "Confidence": 90.0,
+      "Page": 1
+    },
+    {
+      "Id": "k1",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "KEY"
+      ],
+      "Confidence": 89.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "k1-w0",
+            "k1-w1"
+          ]
+        },
+        {
+          "Type": "VALUE",
+          "Ids": [
+            "v1"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "v1",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "VALUE"
+      ],
+      "Confidence": 89.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "v1-w0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "k1-w0",
+      "BlockType": "WORD",
+      "Text": "Order",
+      "Confidence": 89.0,
+      "Page": 1
+    },
+    {
+      "Id": "k1-w1",
+      "BlockType": "WORD",
+      "Text": "ID",
+      "Confidence": 89.0,
+      "Page": 1
+    },
+    {
+      "Id": "v1-w0",
+      "BlockType": "WORD",
+      "Text": "7104598035",
+      "Confidence": 89.0,
+      "Page": 1
+    },
+    {
+      "Id": "k2",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "KEY"
+      ],
+      "Confidence": 88.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "k2-w0",
+            "k2-w1"
+          ]
+        },
+        {
+          "Type": "VALUE",
+          "Ids": [
+            "v2"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "v2",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "VALUE"
+      ],
+      "Confidence": 88.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "v2-w0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "k2-w0",
+      "BlockType": "WORD",
+      "Text": "Order",
+      "Confidence": 88.0,
+      "Page": 1
+    },
+    {
+      "Id": "k2-w1",
+      "BlockType": "WORD",
+      "Text": "Date",
+      "Confidence": 88.0,
+      "Page": 1
+    },
+    {
+      "Id": "v2-w0",
+      "BlockType": "WORD",
+      "Text": "03/04/2025",
+      "Confidence": 88.0,
+      "Page": 1
+    },
+    {
+      "Id": "k3",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "KEY"
+      ],
+      "Confidence": 87.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "k3-w0",
+            "k3-w1"
+          ]
+        },
+        {
+          "Type": "VALUE",
+          "Ids": [
+            "v3"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "v3",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "VALUE"
+      ],
+      "Confidence": 87.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "v3-w0",
+            "v3-w1"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "k3-w0",
+      "BlockType": "WORD",
+      "Text": "Bill",
+      "Confidence": 87.0,
+      "Page": 1
+    },
+    {
+      "Id": "k3-w1",
+      "BlockType": "WORD",
+      "Text": "To",
+      "Confidence": 87.0,
+      "Page": 1
+    },
+    {
+      "Id": "v3-w0",
+      "BlockType": "WORD",
+      "Text": "Devki",
+      "Confidence": 87.0,
+      "Page": 1
+    },
+    {
+      "Id": "v3-w1",
+      "BlockType": "WORD",
+      "Text": "Nath",
+      "Confidence": 87.0,
+      "Page": 1
+    },
+    {
+      "Id": "k4",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "KEY"
+      ],
+      "Confidence": 86.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "k4-w0",
+            "k4-w1"
+          ]
+        },
+        {
+          "Type": "VALUE",
+          "Ids": [
+            "v4"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "v4",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "VALUE"
+      ],
+      "Confidence": 86.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "v4-w0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "k4-w0",
+      "BlockType": "WORD",
+      "Text": "Item",
+      "Confidence": 86.0,
+      "Page": 1
+    },
+    {
+      "Id": "k4-w1",
+      "BlockType": "WORD",
+      "Text": "Total",
+      "Confidence": 86.0,
+      "Page": 1
+    },
+    {
+      "Id": "v4-w0",
+      "BlockType": "WORD",
+      "Text": "4500.00",
+      "Confidence": 86.0,
+      "Page": 1
+    },
+    {
+      "Id": "k5",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "KEY"
+      ],
+      "Confidence": 85.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "k5-w0",
+            "k5-w1"
+          ]
+        },
+        {
+          "Type": "VALUE",
+          "Ids": [
+            "v5"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "v5",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "VALUE"
+      ],
+      "Confidence": 85.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "v5-w0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "k5-w0",
+      "BlockType": "WORD",
+      "Text": "Coupon",
+      "Confidence": 85.0,
+      "Page": 1
+    },
+    {
+      "Id": "k5-w1",
+      "BlockType": "WORD",
+      "Text": "Discount",
+      "Confidence": 85.0,
+      "Page": 1
+    },
+    {
+      "Id": "v5-w0",
+      "BlockType": "WORD",
+      "Text": "500.00",
+      "Confidence": 85.0,
+      "Page": 1
+    },
+    {
+      "Id": "k6",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "KEY"
+      ],
+      "Confidence": 84.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "k6-w0",
+            "k6-w1"
+          ]
+        },
+        {
+          "Type": "VALUE",
+          "Ids": [
+            "v6"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "v6",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "VALUE"
+      ],
+      "Confidence": 84.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "v6-w0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "k6-w0",
+      "BlockType": "WORD",
+      "Text": "GST",
+      "Confidence": 84.0,
+      "Page": 1
+    },
+    {
+      "Id": "k6-w1",
+      "BlockType": "WORD",
+      "Text": "3%",
+      "Confidence": 84.0,
+      "Page": 1
+    },
+    {
+      "Id": "v6-w0",
+      "BlockType": "WORD",
+      "Text": "120.00",
+      "Confidence": 84.0,
+      "Page": 1
+    },
+    {
+      "Id": "k7",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "KEY"
+      ],
+      "Confidence": 83.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "k7-w0",
+            "k7-w1"
+          ]
+        },
+        {
+          "Type": "VALUE",
+          "Ids": [
+            "v7"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "v7",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "VALUE"
+      ],
+      "Confidence": 83.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "v7-w0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "k7-w0",
+      "BlockType": "WORD",
+      "Text": "Grand",
+      "Confidence": 83.0,
+      "Page": 1
+    },
+    {
+      "Id": "k7-w1",
+      "BlockType": "WORD",
+      "Text": "Total",
+      "Confidence": 83.0,
+      "Page": 1
+    },
+    {
+      "Id": "v7-w0",
+      "BlockType": "WORD",
+      "Text": "4120.00",
+      "Confidence": 83.0,
+      "Page": 1
+    },
+    {
+      "Id": "k8",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "KEY"
+      ],
+      "Confidence": 82.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "k8-w0",
+            "k8-w1"
+          ]
+        },
+        {
+          "Type": "VALUE",
+          "Ids": [
+            "v8"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "v8",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "VALUE"
+      ],
+      "Confidence": 82.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "v8-w0",
+            "v8-w1"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "k8-w0",
+      "BlockType": "WORD",
+      "Text": "Payment",
+      "Confidence": 82.0,
+      "Page": 1
+    },
+    {
+      "Id": "k8-w1",
+      "BlockType": "WORD",
+      "Text": "Method",
+      "Confidence": 82.0,
+      "Page": 1
+    },
+    {
+      "Id": "v8-w0",
+      "BlockType": "WORD",
+      "Text": "Net",
+      "Confidence": 82.0,
+      "Page": 1
+    },
+    {
+      "Id": "v8-w1",
+      "BlockType": "WORD",
+      "Text": "Banking",
+      "Confidence": 82.0,
+      "Page": 1
+    },
+    {
+      "Id": "k9",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "KEY"
+      ],
+      "Confidence": 81.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "k9-w0",
+            "k9-w1"
+          ]
+        },
+        {
+          "Type": "VALUE",
+          "Ids": [
+            "v9"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "v9",
+      "BlockType": "KEY_VALUE_SET",
+      "EntityTypes": [
+        "VALUE"
+      ],
+      "Confidence": 81.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "v9-w0",
+            "v9-w1",
+            "v9-w2",
+            "v9-w3",
+            "v9-w4",
+            "v9-w5"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "k9-w0",
+      "BlockType": "WORD",
+      "Text": "Shipping",
+      "Confidence": 81.0,
+      "Page": 1
+    },
+    {
+      "Id": "k9-w1",
+      "BlockType": "WORD",
+      "Text": "Address",
+      "Confidence": 81.0,
+      "Page": 1
+    },
+    {
+      "Id": "v9-w0",
+      "BlockType": "WORD",
+      "Text": "C-401",
+      "Confidence": 81.0,
+      "Page": 1
+    },
+    {
+      "Id": "v9-w1",
+      "BlockType": "WORD",
+      "Text": "Srushti",
+      "Confidence": 81.0,
+      "Page": 1
+    },
+    {
+      "Id": "v9-w2",
+      "BlockType": "WORD",
+      "Text": "Levis",
+      "Confidence": 81.0,
+      "Page": 1
+    },
+    {
+      "Id": "v9-w3",
+      "BlockType": "WORD",
+      "Text": "Nikol",
+      "Confidence": 81.0,
+      "Page": 1
+    },
+    {
+      "Id": "v9-w4",
+      "BlockType": "WORD",
+      "Text": "Ahmedabad",
+      "Confidence": 81.0,
+      "Page": 1
+    },
+    {
+      "Id": "v9-w5",
+      "BlockType": "WORD",
+      "Text": "380038",
+      "Confidence": 81.0,
+      "Page": 1
+    },
+    {
+      "Id": "table1",
+      "BlockType": "TABLE",
+      "Confidence": 92.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "c11",
+            "c12",
+            "c13",
+            "c21",
+            "c22",
+            "c23",
+            "c31",
+            "c32",
+            "c33"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "c11",
+      "BlockType": "CELL",
+      "RowIndex": 1,
+      "ColumnIndex": 1,
+      "Confidence": 92.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "c11-w0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "c11-w0",
+      "BlockType": "WORD",
+      "Text": "Description",
+      "Confidence": 92.0,
+      "Page": 1
+    },
+    {
+      "Id": "c12",
+      "BlockType": "CELL",
+      "RowIndex": 1,
+      "ColumnIndex": 2,
+      "Confidence": 92.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "c12-w0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "c12-w0",
+      "BlockType": "WORD",
+      "Text": "Qty",
+      "Confidence": 92.0,
+      "Page": 1
+    },
+    {
+      "Id": "c13",
+      "BlockType": "CELL",
+      "RowIndex": 1,
+      "ColumnIndex": 3,
+      "Confidence": 92.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "c13-w0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "c13-w0",
+      "BlockType": "WORD",
+      "Text": "Amount",
+      "Confidence": 92.0,
+      "Page": 1
+    },
+    {
+      "Id": "c21",
+      "BlockType": "CELL",
+      "RowIndex": 2,
+      "ColumnIndex": 1,
+      "Confidence": 92.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "c21-w0",
+            "c21-w1",
+            "c21-w2",
+            "c21-w3"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "c21-w0",
+      "BlockType": "WORD",
+      "Text": "Silk",
+      "Confidence": 92.0,
+      "Page": 1
+    },
+    {
+      "Id": "c21-w1",
+      "BlockType": "WORD",
+      "Text": "Saree",
+      "Confidence": 92.0,
+      "Page": 1
+    },
+    {
+      "Id": "c21-w2",
+      "BlockType": "WORD",
+      "Text": "-",
+      "Confidence": 92.0,
+      "Page": 1
+    },
+    {
+      "Id": "c21-w3",
+      "BlockType": "WORD",
+      "Text": "Kanjivaram",
+      "Confidence": 92.0,
+      "Page": 1
+    },
+    {
+      "Id": "c22",
+      "BlockType": "CELL",
+      "RowIndex": 2,
+      "ColumnIndex": 2,
+      "Confidence": 92.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "c22-w0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "c22-w0",
+      "BlockType": "WORD",
+      "Text": "1",
+      "Confidence": 92.0,
+      "Page": 1
+    },
+    {
+      "Id": "c23",
+      "BlockType": "CELL",
+      "RowIndex": 2,
+      "ColumnIndex": 3,
+      "Confidence": 92.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "c23-w0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "c23-w0",
+      "BlockType": "WORD",
+      "Text": "3200.00",
+      "Confidence": 92.0,
+      "Page": 1
+    },
+    {
+      "Id": "c31",
+      "BlockType": "CELL",
+      "RowIndex": 3,
+      "ColumnIndex": 1,
+      "Confidence": 92.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "c31-w0",
+            "c31-w1"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "c31-w0",
+      "BlockType": "WORD",
+      "Text": "Cotton",
+      "Confidence": 92.0,
+      "Page": 1
+    },
+    {
+      "Id": "c31-w1",
+      "BlockType": "WORD",
+      "Text": "Dupatta",
+      "Confidence": 92.0,
+      "Page": 1
+    },
+    {
+      "Id": "c32",
+      "BlockType": "CELL",
+      "RowIndex": 3,
+      "ColumnIndex": 2,
+      "Confidence": 92.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "c32-w0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "c32-w0",
+      "BlockType": "WORD",
+      "Text": "2",
+      "Confidence": 92.0,
+      "Page": 1
+    },
+    {
+      "Id": "c33",
+      "BlockType": "CELL",
+      "RowIndex": 3,
+      "ColumnIndex": 3,
+      "Confidence": 92.0,
+      "Page": 1,
+      "Relationships": [
+        {
+          "Type": "CHILD",
+          "Ids": [
+            "c33-w0"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "c33-w0",
+      "BlockType": "WORD",
+      "Text": "1300.00",
+      "Confidence": 92.0,
+      "Page": 1
+    }
+  ]
+}

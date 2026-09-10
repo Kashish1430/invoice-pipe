@@ -1,0 +1,51 @@
+{
+  "fields": {
+    "date": "23/6/2025",
+    "company_name": "Sephra Europe Ltd (CFW)",
+    "buyer_name": "Devki Nath",
+    "invoice_reference_number": "304743",
+    "product_name": "Sephra Belgian Milk Chocolate - 250g SEBELMILK250; Callebaut MILK Chocolate CALLETS 400g 823-E0-D94",
+    "product_amount": "14.21",
+    "total_amount": "£19.60",
+    "vat_tax_label": "VAT",
+    "vat_tax_percentage": "N/A",
+    "vat_tax_amount": "0.90",
+    "coupon_discount_amount": "0",
+    "mode_of_payment": "N/A",
+    "currency": "GBP"
+  },
+  "source_labels": {
+    "date": "Date",
+    "company_name": "VENDOR_NAME",
+    "buyer_name": "RECEIVER_NAME",
+    "invoice_reference_number": "Sale #",
+    "product_name": "Item",
+    "product_amount": "Subtotal",
+    "total_amount": "Total",
+    "vat_tax_label": "VAT",
+    "vat_tax_amount": "VAT",
+    "currency": "Currency"
+  },
+  "unmapped_metadata": {
+    "address": "19 Fulford Grove, Watford, Herts., WD19 7QQ, United Kingdom",
+    "vendor_address": "Sephra House, Denburn Road, Kirkcaldy, Fife, KY1 2BJ, United Kingdom",
+    "vat_number": "GB 941 1173 52",
+    "eori_number": "GB941117352000",
+    "tracking_number": "15504474047768",
+    "vendor_phone": "+44 (0) 1592 650540",
+    "vendor_url": "www.cfw.co.uk",
+    "shipping_charge": "£4.49",
+    "account_number": "00705283",
+    "sort_code": "83 23 25",
+    "iban": "GB38 RBOS 8323 2500 705283",
+    "line_items": "[{\"Qty\": \"1\", \"Item\": \"Sephra Belgian Milk Chocolate - 250g SEBELMILK250\", \"Part Number\": \"\", \"Commodity\\nCode\": \"\", \"Country of\\nOrigin\": \"\", \"Rate\": \"5.99\", \"Tax Amt\": \"£0.00\", \"Amount\": \"£5.99\", \"EXPENSE_ROW\": \"1 Sephra Belgian Milk Chocolate 250g SEBELMILK250 5.99 £0.00 £5.99\\n-\"}, {\"Qty\": \"1\", \"Item\": \"Callebaut MILK Chocolate CALLETS 400g 823-E0-D94\\n-\", \"Part Number\": \"\", \"Commodity\\nCode\": \"18069039\", \"Country of\\nOrigin\": \"\", \"Rate\": \"8.22\", \"Tax Amt\": \"£0.00\", \"Amount\": \"£8.22\", \"EXPENSE_ROW\": \"1 Callebaut MILK Chocolate CALLETS 400g 823-E0-D94 18069039 8.22 £0.00 £8.22\\n-\"}]",
+    "extracted_by": "AnalyzeExpense"
+  },
+  "multiple_total_candidates": false,
+  "notes": "The total amount includes shipping charge of £4.49 and VAT of £0.90 applied to the subtotal of £14.21. VAT tax percentage not explicitly stated in the extracted data.",
+  "model_id": "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "source": "bedrock",
+  "attempts": 1,
+  "input_tokens": 6726,
+  "output_tokens": 800
+}

@@ -1,0 +1,559 @@
+{
+  "JobStatus": "SUCCEEDED",
+  "DocumentMetadata": {
+    "Pages": 6
+  },
+  "ExpenseDocuments": [
+    {
+      "ExpenseIndex": 1,
+      "SummaryFields": [
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "For",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Bharti Airtel Limited",
+            "Confidence": 98.9
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Billing Address",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Mrs. Devki Hiteshbhai Nath",
+            "Confidence": 97.6
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Billing Address",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "C-401, Srushti Levis, Nikol, Ahmedabad, Gujarat, 380038",
+            "Confidence": 95.1
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_DATE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Statement Date:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "12 Apr 2026",
+            "Confidence": 98.0
+          }
+        },
+        {
+          "Type": {
+            "Text": "DUE_DATE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Due Date:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "22 Apr 2026",
+            "Confidence": 97.9
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Statement Period:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "11 Mar 2026 to 10 Apr 2026",
+            "Confidence": 96.3
+          }
+        },
+        {
+          "Type": {
+            "Text": "TOTAL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Total Amount Payable:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "805.82",
+            "Confidence": 98.4
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Last bill amount",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "1611.64",
+            "Confidence": 97.2
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Payment made",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "-1611.64",
+            "Confidence": 97.0
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Credits",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "0.00",
+            "Confidence": 96.8
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "This month's charges",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "805.82",
+            "Confidence": 97.5
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Amount after due date (22 Apr)",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "923.82",
+            "Confidence": 96.1
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Your Plan:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "499 WiFi_40Mbps (Monthly Rental)",
+            "Confidence": 96.7
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Number of Connections:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "1",
+            "Confidence": 95.0
+          }
+        }
+      ]
+    },
+    {
+      "ExpenseIndex": 4,
+      "SummaryFields": [
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Original Copy for Recipient provided by",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Bharti Airtel Limited",
+            "Confidence": 98.5
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_ID",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Bill NO",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "HF2724I000304106",
+            "Confidence": 98.8
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Account No",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "7042968270",
+            "Confidence": 98.1
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_DATE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Bill Date",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "12 Apr 2026",
+            "Confidence": 98.2
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Bill Period",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "11 Mar 2026 to 10 Apr 2026",
+            "Confidence": 96.0
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Total Amount",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "706.82",
+            "Confidence": 97.4
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Other Charges - Third party content charges (incl taxes)",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "99.00",
+            "Confidence": 96.2
+          }
+        },
+        {
+          "Type": {
+            "Text": "TOTAL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Grand Total",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "805.82",
+            "Confidence": 98.3
+          }
+        },
+        {
+          "Type": {
+            "Text": "TAX",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Taxes (GST)",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "107.82",
+            "Confidence": 97.7
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Plan/Pack Charges",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "499.00",
+            "Confidence": 97.1
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Other Charges",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "199.00",
+            "Confidence": 96.9
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Total (Incl. Taxes)",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "805.82",
+            "Confidence": 97.8
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Place of Supply :",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Gujarat",
+            "Confidence": 96.5
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Credit limit",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "1500.00",
+            "Confidence": 95.9
+          }
+        },
+        {
+          "Type": {
+            "Text": "PAYMENT_TERMS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Payment via",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Airtel Pay (PayU)",
+            "Confidence": 94.8
+          }
+        }
+      ],
+      "LineItemGroups": [
+        {
+          "LineItemGroupIndex": 1,
+          "LineItems": [
+            {
+              "LineItemExpenseFields": [
+                {
+                  "Type": {
+                    "Text": "ITEM",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Charges",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Rental Charges",
+                    "Confidence": 95.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "PRICE",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Amount",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "499.00",
+                    "Confidence": 95.0
+                  }
+                }
+              ]
+            },
+            {
+              "LineItemExpenseFields": [
+                {
+                  "Type": {
+                    "Text": "ITEM",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Charges",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Late Payment Charges for Mar-2026",
+                    "Confidence": 95.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "PRICE",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Amount",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "100.00",
+                    "Confidence": 95.0
+                  }
+                }
+              ]
+            },
+            {
+              "LineItemExpenseFields": [
+                {
+                  "Type": {
+                    "Text": "ITEM",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Charges",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Xstream Play Subscription Renewal",
+                    "Confidence": 95.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "PRICE",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Amount",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "83.90",
+                    "Confidence": 95.0
+                  }
+                }
+              ]
+            },
+            {
+              "LineItemExpenseFields": [
+                {
+                  "Type": {
+                    "Text": "ITEM",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Charges",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Taxes",
+                    "Confidence": 95.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "PRICE",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Amount",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "107.82",
+                    "Confidence": 95.0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

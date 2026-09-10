@@ -1,0 +1,1167 @@
+{
+  "JobStatus": "SUCCEEDED",
+  "DocumentMetadata": {
+    "Pages": 2
+  },
+  "ExpenseDocuments": [
+    {
+      "ExpenseIndex": 1,
+      "SummaryFields": [
+        {
+          "Type": {
+            "Text": "ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Bill To",
+            "Confidence": 99.79043579101562
+          },
+          "ValueDetection": {
+            "Text": "Devki Nath\n19 Fulford Grove\nWatford\nHerts.\nWD19 7QQ\nUnited Kingdom",
+            "Confidence": 99.63893127441406
+          }
+        },
+        {
+          "Type": {
+            "Text": "STREET",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "STREET",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "19 Fulford Grove",
+            "Confidence": 99.98410034179688
+          }
+        },
+        {
+          "Type": {
+            "Text": "CITY",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "CITY",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Watford",
+            "Confidence": 99.32955169677734
+          }
+        },
+        {
+          "Type": {
+            "Text": "STATE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "STATE",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Herts.",
+            "Confidence": 97.42240142822266
+          }
+        },
+        {
+          "Type": {
+            "Text": "ZIP_CODE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "ZIP_CODE",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "WD19 7QQ",
+            "Confidence": 96.63484191894531
+          }
+        },
+        {
+          "Type": {
+            "Text": "COUNTRY",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "COUNTRY",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "United Kingdom",
+            "Confidence": 99.97982788085938
+          }
+        },
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Devki Nath",
+            "Confidence": 99.96439361572266
+          }
+        },
+        {
+          "Type": {
+            "Text": "ADDRESS_BLOCK",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "ADDRESS_BLOCK",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "19 Fulford Grove\nWatford\nHerts.\nWD19 7QQ\nUnited Kingdom",
+            "Confidence": 98.91002655029297
+          }
+        },
+        {
+          "Type": {
+            "Text": "ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Ship To",
+            "Confidence": 99.94103240966797
+          },
+          "ValueDetection": {
+            "Text": "Devki Nath\n19 Fulford Grove\nWatford\nHerts.\nWD19 7QQ\nUnited Kingdom",
+            "Confidence": 98.5206527709961
+          }
+        },
+        {
+          "Type": {
+            "Text": "STREET",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "STREET",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "19 Fulford Grove",
+            "Confidence": 99.96896362304688
+          }
+        },
+        {
+          "Type": {
+            "Text": "CITY",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "CITY",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Watford",
+            "Confidence": 97.80267333984375
+          }
+        },
+        {
+          "Type": {
+            "Text": "STATE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "STATE",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Herts.",
+            "Confidence": 93.79547882080078
+          }
+        },
+        {
+          "Type": {
+            "Text": "ZIP_CODE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "ZIP_CODE",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "WD19 7QQ",
+            "Confidence": 86.47115325927734
+          }
+        },
+        {
+          "Type": {
+            "Text": "COUNTRY",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "COUNTRY",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "United Kingdom",
+            "Confidence": 99.9852294921875
+          }
+        },
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Devki Nath",
+            "Confidence": 99.93412017822266
+          }
+        },
+        {
+          "Type": {
+            "Text": "ADDRESS_BLOCK",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "ADDRESS_BLOCK",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "19 Fulford Grove\nWatford\nHerts.\nWD19 7QQ\nUnited Kingdom",
+            "Confidence": 96.50546264648438
+          }
+        },
+        {
+          "Type": {
+            "Text": "ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "ADDRESS",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Sephra Europe Ltd (CFW)\nSephra House\nDenburn Road\nKirkcaldy\nFife\nKY1 2BJ\nUnited Kingdom",
+            "Confidence": 99.92084503173828
+          }
+        },
+        {
+          "Type": {
+            "Text": "STREET",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "STREET",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Sephra House\nDenburn Road",
+            "Confidence": 96.15291595458984
+          }
+        },
+        {
+          "Type": {
+            "Text": "CITY",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "CITY",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Kirkcaldy",
+            "Confidence": 99.35424041748047
+          }
+        },
+        {
+          "Type": {
+            "Text": "ZIP_CODE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "ZIP_CODE",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "KY1 2BJ",
+            "Confidence": 98.91864013671875
+          }
+        },
+        {
+          "Type": {
+            "Text": "COUNTRY",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "COUNTRY",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "United Kingdom",
+            "Confidence": 99.98344421386719
+          }
+        },
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Sephra Europe Ltd (CFW)",
+            "Confidence": 92.81165313720703
+          }
+        },
+        {
+          "Type": {
+            "Text": "ADDRESS_BLOCK",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "ADDRESS_BLOCK",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Sephra House\nDenburn Road\nKirkcaldy\nFife\nKY1 2BJ\nUnited Kingdom",
+            "Confidence": 98.60366821289062
+          }
+        },
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "CFW CO.UK",
+            "Confidence": 74.32408905029297
+          }
+        },
+        {
+          "Type": {
+            "Text": "CUSTOMER_NUMBER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "EORI Customer Number",
+            "Confidence": 98.7848129272461
+          },
+          "ValueDetection": {
+            "Text": "",
+            "Confidence": 98.7848129272461
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_DATE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Date",
+            "Confidence": 99.83411407470703
+          },
+          "ValueDetection": {
+            "Text": "23/6/2025",
+            "Confidence": 99.8336410522461
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_ID",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "INVOICE_RECEIPT_ID",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "304743",
+            "Confidence": 61.42494201660156
+          }
+        },
+        {
+          "Type": {
+            "Text": "TAX_PAYER_ID",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VAT No.",
+            "Confidence": 99.89364624023438
+          },
+          "ValueDetection": {
+            "Text": "GB 941 1173 52",
+            "Confidence": 98.83223724365234
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_VAT_NUMBER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VAT No.",
+            "Confidence": 99.89364624023438
+          },
+          "ValueDetection": {
+            "Text": "GB 941 1173 52",
+            "Confidence": 98.83223724365234
+          }
+        },
+        {
+          "Type": {
+            "Text": "TAX_PAYER_ID",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Tax Id",
+            "Confidence": 96.18031311035156
+          },
+          "ValueDetection": {
+            "Text": "",
+            "Confidence": 96.18031311035156
+          }
+        },
+        {
+          "Type": {
+            "Text": "PO_NUMBER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "PO Ref",
+            "Confidence": 94.39739227294922
+          },
+          "ValueDetection": {
+            "Text": "",
+            "Confidence": 94.39739227294922
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Bill To",
+            "Confidence": 99.79043579101562
+          },
+          "ValueDetection": {
+            "Text": "Devki Nath\n19 Fulford Grove\nWatford\nHerts.\nWD19 7QQ\nUnited Kingdom",
+            "Confidence": 99.63893127441406
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Ship To",
+            "Confidence": 99.94103240966797
+          },
+          "ValueDetection": {
+            "Text": "Devki Nath\n19 Fulford Grove\nWatford\nHerts.\nWD19 7QQ\nUnited Kingdom",
+            "Confidence": 98.5206527709961
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "RECEIVER_NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Devki Nath",
+            "Confidence": 99.96439361572266
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "RECEIVER_NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Devki Nath",
+            "Confidence": 99.93412017822266
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_ADDRESS",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Sephra Europe Ltd (CFW)\nSephra House\nDenburn Road\nKirkcaldy\nFife\nKY1 2BJ\nUnited Kingdom",
+            "Confidence": 99.92084503173828
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Sephra Europe Ltd (CFW)",
+            "Confidence": 92.81165313720703
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "CFW CO.UK",
+            "Confidence": 74.32408905029297
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_PHONE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Tel",
+            "Confidence": 99.78166961669922
+          },
+          "ValueDetection": {
+            "Text": "+44 (0) 1592 650540",
+            "Confidence": 99.70706939697266
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_URL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_URL",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "www.cfw.co.uk",
+            "Confidence": 98.88024139404297
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Sale #",
+            "Confidence": 99.46923065185547
+          },
+          "ValueDetection": {
+            "Text": "304743",
+            "Confidence": 99.92581176757812
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "EORI NO.",
+            "Confidence": 99.88227844238281
+          },
+          "ValueDetection": {
+            "Text": "GB941117352000",
+            "Confidence": 99.96923828125
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Currency",
+            "Confidence": 99.82191467285156
+          },
+          "ValueDetection": {
+            "Text": "GBP",
+            "Confidence": 99.82971954345703
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Tracking #",
+            "Confidence": 99.8768539428711
+          },
+          "ValueDetection": {
+            "Text": "15504474047768",
+            "Confidence": 99.92582702636719
+          }
+        }
+      ],
+      "LineItemGroups": [
+        {
+          "LineItemGroupIndex": 1,
+          "LineItems": [
+            {
+              "LineItemExpenseFields": [
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Qty",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "1",
+                    "Confidence": 99.32592010498047
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Item",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Sephra Belgian Milk Chocolate - 250g SEBELMILK250",
+                    "Confidence": 96.51229858398438
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Part Number",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "",
+                    "Confidence": 0.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Commodity\nCode",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "",
+                    "Confidence": 0.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Country of\nOrigin",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "",
+                    "Confidence": 0.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Rate",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "5.99",
+                    "Confidence": 99.98200225830078
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Tax Amt",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "£0.00",
+                    "Confidence": 80.31027221679688
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Amount",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "£5.99",
+                    "Confidence": 99.99150085449219
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "EXPENSE_ROW",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "1 Sephra Belgian Milk Chocolate 250g SEBELMILK250 5.99 £0.00 £5.99\n-",
+                    "Confidence": 97.70231628417969
+                  }
+                }
+              ]
+            },
+            {
+              "LineItemExpenseFields": [
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Qty",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "1",
+                    "Confidence": 99.65992736816406
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Item",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Callebaut MILK Chocolate CALLETS 400g 823-E0-D94\n-",
+                    "Confidence": 91.50532531738281
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Part Number",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "",
+                    "Confidence": 0.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Commodity\nCode",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "18069039",
+                    "Confidence": 92.91860961914062
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Country of\nOrigin",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "",
+                    "Confidence": 0.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Rate",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "8.22",
+                    "Confidence": 99.99061584472656
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Tax Amt",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "£0.00",
+                    "Confidence": 81.78135681152344
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Amount",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "£8.22",
+                    "Confidence": 99.99141693115234
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "EXPENSE_ROW",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "1 Callebaut MILK Chocolate CALLETS 400g 823-E0-D94 18069039 8.22 £0.00 £8.22\n-",
+                    "Confidence": 94.92395782470703
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ExpenseIndex": 2,
+      "SummaryFields": [
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Account Name:",
+            "Confidence": 90.12699127197266
+          },
+          "ValueDetection": {
+            "Text": "Sephra Europe Ltd",
+            "Confidence": 90.06922149658203
+          }
+        },
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Sephra Europe Ltd",
+            "Confidence": 99.70498657226562
+          }
+        },
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "CFW CO.UK",
+            "Confidence": 94.26094055175781
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_ID",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "INVOICE_RECEIPT_ID",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "304743",
+            "Confidence": 61.083168029785156
+          }
+        },
+        {
+          "Type": {
+            "Text": "SHIPPING_HANDLING_CHARGE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Shipping (DPD ExpressPak Next Day (UK only Exc\nHighlands and Islands))",
+            "Confidence": 97.92359161376953
+          },
+          "ValueDetection": {
+            "Text": "£4.49",
+            "Confidence": 97.97264099121094
+          }
+        },
+        {
+          "Type": {
+            "Text": "SUBTOTAL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Subtotal",
+            "Confidence": 99.91677856445312
+          },
+          "ValueDetection": {
+            "Text": "£14.21",
+            "Confidence": 99.91260528564453
+          }
+        },
+        {
+          "Type": {
+            "Text": "TAX",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VAT",
+            "Confidence": 99.97634887695312
+          },
+          "ValueDetection": {
+            "Text": "£0.90",
+            "Confidence": 99.97885131835938
+          }
+        },
+        {
+          "Type": {
+            "Text": "TOTAL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Total",
+            "Confidence": 99.94501495361328
+          },
+          "ValueDetection": {
+            "Text": "£19.60",
+            "Confidence": 99.92534637451172
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Account Name:",
+            "Confidence": 90.12699127197266
+          },
+          "ValueDetection": {
+            "Text": "Sephra Europe Ltd",
+            "Confidence": 90.06922149658203
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Sephra Europe Ltd",
+            "Confidence": 99.70498657226562
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "CFW CO.UK",
+            "Confidence": 94.26094055175781
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_URL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_URL",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "www.sephra.com/Terms-and-Condition",
+            "Confidence": 94.68309020996094
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Please Note:",
+            "Confidence": 99.78379821777344
+          },
+          "ValueDetection": {
+            "Text": "All goods must be thoroughly inspected upon delivery, and if there is any damage, this must be noted\nwhen signing with the courier. All damages should be reported with photographic evidence to\ninfo@sephra.com within five working days of receipt. Claims outside five working days will be reviewed but\nmay not be accepted.",
+            "Confidence": 99.77640533447266
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "SENDING PAYMENT",
+            "Confidence": 89.11651611328125
+          },
+          "ValueDetection": {
+            "Text": "GBP Cheques payable to \"Sephra Europe Ltd.\"\nBank Transfer in GBP to:\nRoyal Bank of Scotland, 23/25 Rosslyn Street, Kirkcaldy, Fife, KY1 3HA\nAccount Name: Sephra Europe Ltd\nAccount Number: 00705283 Sort Code: 83 23 25\nBIC / SWIFT RBOS GB 2L\nIBAN GB38 RBOS 8323 2500 705283\n-",
+            "Confidence": 88.05131530761719
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Bank Transfer in GBP to:",
+            "Confidence": 97.30126190185547
+          },
+          "ValueDetection": {
+            "Text": "Royal Bank of Scotland, 23/25 Rosslyn Street, Kirkcaldy, Fife, KY1 3HA\nAccount Name: Sephra Europe Ltd\nAccount Number: 00705283 Sort Code: 83 23 25",
+            "Confidence": 96.65829467773438
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Account Number:",
+            "Confidence": 99.93563079833984
+          },
+          "ValueDetection": {
+            "Text": "00705283",
+            "Confidence": 99.93151092529297
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Sort Code:",
+            "Confidence": 99.34233856201172
+          },
+          "ValueDetection": {
+            "Text": "83 23 25",
+            "Confidence": 85.91573333740234
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "BIC / SWIFT RBOS",
+            "Confidence": 93.75022888183594
+          },
+          "ValueDetection": {
+            "Text": "GB 2L",
+            "Confidence": 98.32181549072266
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "IBAN GB38 RBOS\n-",
+            "Confidence": 85.16777038574219
+          },
+          "ValueDetection": {
+            "Text": "8323 2500 705283",
+            "Confidence": 88.76107788085938
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "fields": {
+    "date": "25 July 2025",
+    "company_name": "Coffee Culture",
+    "buyer_name": "Devki Nath",
+    "invoice_reference_number": "7104598035",
+    "product_name": "Masala Soda",
+    "product_amount": "175",
+    "total_amount": "₹235.93",
+    "vat_tax_label": "Taxes",
+    "vat_tax_percentage": "N/A",
+    "vat_tax_amount": "₹9.43",
+    "coupon_discount_amount": "52.50",
+    "mode_of_payment": "N/A",
+    "currency": "INR"
+  },
+  "source_labels": {
+    "date": "Order Time:",
+    "company_name": "Restaurant Name:",
+    "buyer_name": "Customer Name:",
+    "invoice_reference_number": "Order ID:",
+    "product_name": "Item",
+    "product_amount": "Unit Price",
+    "total_amount": "Total",
+    "vat_tax_label": "Taxes",
+    "vat_tax_amount": "Taxes",
+    "coupon_discount_amount": "Coupon (TASTENEW)"
+  },
+  "unmapped_metadata": {
+    "delivery_address": "c-401 shrusti avis,nr.devasya international school, opp.shyam villa-2, nikol naroda road., New India Colony",
+    "restaurant_address": "Shop 1, Fortune Plaza, Opposite Fortune Sky, Naroda, Ahmedabad",
+    "delivery_partner_name": "Rathod Mahendrasinh Kesarsinh",
+    "surge_fee": "₹15",
+    "restaurant_packaging_charges": "₹30",
+    "platform_fee": "₹10",
+    "delivery_charge_subtotal": "₹49",
+    "fssai_license_1": "20721037004960",
+    "fssai_license_2": "10019064001810",
+    "platform": "zomato",
+    "line_items": "[{\"Item\": \"Masala Soda\", \"Quantity\": \"1\", \"Unit Price\": \"₹175\", \"Total Price\": \"₹175\", \"EXPENSE_ROW\": \"Masala Soda 1 ₹175 ₹175\"}]",
+    "extracted_by": "AnalyzeExpense"
+  },
+  "multiple_total_candidates": false,
+  "notes": "This is a food delivery order from Zomato. The product_amount (₹175) represents the item cost only. The total_amount (₹235.93) includes delivery charges (₹49), platform fee (₹10), surge fee (₹15), packaging charges (₹30), taxes (₹9.43), minus coupon discount (₹52.50). The coupon discount from TASTENEW was ₹52.50; PAYTMUPI coupon had no discount value.",
+  "model_id": "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "source": "bedrock",
+  "attempts": 1,
+  "input_tokens": 5168,
+  "output_tokens": 825
+}

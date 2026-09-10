@@ -1,0 +1,162 @@
+# Canonical 13-field ontology. This file is the single source of truth for both
+# the Bedrock tool-use inputSchema and the system prompt's field semantics, so the
+# prompt and the schema can never drift apart.
+#
+# `Address` is deliberately absent: it is the 14th, explicitly unmapped field and
+# is routed to unmapped_metadata["address"] instead of a top-level slot.
+
+version: 1
+
+fields:
+  - name: date
+    label: Date
+    type: string
+    required: true
+    semantics: >-
+      The invoice/receipt issue date - the date the document was raised, NOT the
+      due date, NOT the statement period start/end, NOT the payment date. If the
+      document shows several dates, prefer one labelled "Invoice Date", "Bill Date",
+      "Receipt Date" or "Date of Issue". Return the date exactly as printed - never
+      reorder day and month, never convert between formats. Where a time is printed
+      alongside it ("2024-01-22 08:19:00 AM"), return the date part only.
+
+  - name: company_name
+    label: Company Name
+    type: string
+    required: true
+    semantics: >-
+      The seller/merchant issuing the invoice - the party being paid. Never the
+      customer, never a payment processor or gateway named in the footer.
+
+  - name: buyer_name
+    label: Buyer Name
+    type: string
+    required: true
+    semantics: >-
+      The customer being billed - the party paying. Look for "Bill To", "Customer
+      Name", "Sold To", "Member Name", "Applicant". If the extracted text is
+      unreadable/garbled (corrupted font mapping), return the exact garbled text
+      rather than inventing a plausible name; downstream validation will flag it.
+
+  - name: invoice_reference_number
+    label: Invoice/Reference Number
+    type: string
+    required: true
+    semantics: >-
+      The document's own identifier - "Invoice No", "Receipt No", "Reference No",
+      "Bill Number", "Order ID". Prefer the invoice-level identifier over a
+      customer/account number or a transaction/UTR number. Return it verbatim,
+      including slashes and hyphens; do not normalise spacing.
+
+  - name: product_name
+    label: Product Name(s)
+    type: string
+    required: false
+    default: "N/A"
+    semantics: >-
+      The goods/services billed. If there are multiple line items, join their
+      descriptions with "; " in the order they appear. Descriptions only - no
+      quantities, unit prices or line totals.
+
+  - name: product_amount
+    label: Product Amount
+    type: string
+    required: false
+    default: "0"
+    semantics: >-
+      The pre-tax, pre-discount value of the goods/services - subtotal, net amount,
+      taxable value. NOT the final payable amount. Return digits as printed
+      (commas/decimal point are fine); do not include a currency symbol.
+
+  - name: total_amount
+    label: Total Amount
+    type: string
+    required: false
+    default: "0"
+    semantics: >-
+      The final amount payable after tax and discount. When several "total"-like
+      figures compete, prefer "Amount Payable" / "Grand Total" / "Total Due" /
+      "Net Payable" over "Previous Balance", "Last Bill Amount", "This Month's
+      Charges", or an amount-after-due-date surcharge figure. If the document
+      contradicts itself (e.g. a 0.00 grand total beside a non-zero amount), return
+      the figure carrying the canonical label and record the alternative in
+      `notes`; do not silently pick the larger number.
+
+  - name: vat_tax_label
+    label: VAT/Tax
+    type: string
+    required: false
+    default: "N/A"
+    semantics: >-
+      The name of the tax applied, as printed - "VAT", "GST", "SGST+CGST",
+      "Service Tax". Combine components with "+" when several are levied.
+
+  - name: vat_tax_percentage
+    label: VAT/Tax Percentage
+    type: string
+    required: false
+    default: "N/A"
+    semantics: >-
+      The tax rate as printed, including the percent sign - "20%", "9%+9%", "18%".
+      This is a label, not a number: it stays a string so multi-component rates
+      survive intact.
+
+  - name: vat_tax_amount
+    label: VAT/Tax Amount
+    type: string
+    required: false
+    default: "0"
+    semantics: >-
+      The monetary tax charged. Sum the components when several are levied. A
+      printed 0.00 is a real value - return 0, do not infer the amount from the
+      rate and the subtotal.
+
+  - name: coupon_discount_amount
+    label: Coupon/Discount Amount
+    type: string
+    required: false
+    default: "0"
+    semantics: >-
+      The monetary discount applied - coupon, promo, waiver, rebate. Return it as a
+      positive magnitude even when the document prints it in parentheses or with a
+      leading minus.
+
+  - name: mode_of_payment
+    label: Mode of Payment
+    type: string
+    required: false
+    default: "N/A"
+    semantics: >-
+      How the invoice was/will be paid - "Cash", "Card", "UPI", "Net Banking",
+      "Cheque", "Auto Debit". Not the payment processor's brand name unless that
+      is the only indication of method.
+
+  - name: currency
+    label: Currency
+    type: string
+    required: true
+    semantics: >-
+      The ISO 4217 code of the currency the document is denominated in - INR, GBP,
+      USD, EUR. Infer it from the symbol when no code is printed: Rs./₹ -> INR,
+      £ -> GBP, $ -> USD, € -> EUR.
+
+# Fields the mapper must emit alongside the 13 canonical values.
+provenance_fields:
+  - name: source_labels
+    semantics: >-
+      Object mapping each canonical field name to the verbatim Textract label the
+      value was taken from (e.g. {"total_amount": "Amount Payable"}). Omit a key
+      when the value was not present in the source at all.
+  - name: unmapped_metadata
+    semantics: >-
+      Everything extracted that has no canonical slot, as a flat string->string
+      object. `address` belongs here, always. Tax registration numbers, account
+      numbers and phone numbers belong here too.
+  - name: multiple_total_candidates
+    semantics: >-
+      true when two or more source labels plausibly denoted the final payable
+      amount and one had to be chosen. Drives the MULTIPLE_TOTAL_CANDIDATES flag.
+  - name: notes
+    semantics: >-
+      Free text: contradictions, ambiguities, or the rejected alternatives behind a
+      disambiguation decision. Empty string when there is nothing to record.

@@ -1,0 +1,337 @@
+{
+  "JobStatus": "SUCCEEDED",
+  "DocumentMetadata": {
+    "Pages": 2
+  },
+  "ExpenseDocuments": [
+    {
+      "ExpenseIndex": 1,
+      "SummaryFields": [
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Contact Name",
+            "Confidence": 92.25816345214844
+          },
+          "ValueDetection": {
+            "Text": "NIDHI MUKESHBHAI VEKARIYA",
+            "Confidence": 92.21680450439453
+          }
+        },
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Trip.com Travel Singapore Pte. Ltd.",
+            "Confidence": 99.52066802978516
+          }
+        },
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Trip.com Travel Singapore Pte. Ltd.",
+            "Confidence": 98.24327850341797
+          }
+        },
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Trip.com Group",
+            "Confidence": 84.12622833251953
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_ID",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Booking No.",
+            "Confidence": 75.40900421142578
+          },
+          "ValueDetection": {
+            "Text": "1653709449673763",
+            "Confidence": 75.42157745361328
+          }
+        },
+        {
+          "Type": {
+            "Text": "TAX_PAYER_ID",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Company No/GST Reg. No:",
+            "Confidence": 88.33602142333984
+          },
+          "ValueDetection": {
+            "Text": "201613701E",
+            "Confidence": 88.34928894042969
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_GST_NUMBER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Company No/GST Reg. No:",
+            "Confidence": 88.33602142333984
+          },
+          "ValueDetection": {
+            "Text": "201613701E",
+            "Confidence": 88.34928894042969
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Contact Name",
+            "Confidence": 92.25816345214844
+          },
+          "ValueDetection": {
+            "Text": "NIDHI MUKESHBHAI VEKARIYA",
+            "Confidence": 92.21680450439453
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_PHONE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "RECEIVER_PHONE",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "098-2945260862",
+            "Confidence": 80.75335693359375
+          }
+        },
+        {
+          "Type": {
+            "Text": "TAX",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Taxes & fees",
+            "Confidence": 78.5549087524414
+          },
+          "ValueDetection": {
+            "Text": "£309.30",
+            "Confidence": 78.61878967285156
+          }
+        },
+        {
+          "Type": {
+            "Text": "TOTAL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Total (American Express card (credit) 341266***01)",
+            "Confidence": 99.34031677246094
+          },
+          "ValueDetection": {
+            "Text": "£607.40",
+            "Confidence": 99.85818481445312
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Trip.com Travel Singapore Pte. Ltd.",
+            "Confidence": 99.52066802978516
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Trip.com Travel Singapore Pte. Ltd.",
+            "Confidence": 98.24327850341797
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Trip.com Group",
+            "Confidence": 84.12622833251953
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Date of Booking:",
+            "Confidence": 97.62080383300781
+          },
+          "ValueDetection": {
+            "Text": "7: 54 AM, October 6, 2025 (GMT+8)",
+            "Confidence": 96.80148315429688
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Contact Info",
+            "Confidence": 84.82225036621094
+          },
+          "ValueDetection": {
+            "Text": "Contact Name N M Vekariya\nEmail hmve****ya99@gmail.com",
+            "Confidence": 84.8730697631836
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Email",
+            "Confidence": 98.97338104248047
+          },
+          "ValueDetection": {
+            "Text": "hmve****ya99@gmail.com",
+            "Confidence": 98.9149398803711
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Reg. No:",
+            "Confidence": 89.11070251464844
+          },
+          "ValueDetection": {
+            "Text": "201613701E",
+            "Confidence": 86.08618927001953
+          }
+        }
+      ],
+      "LineItemGroups": [
+        {
+          "LineItemGroupIndex": 1,
+          "LineItems": [
+            {
+              "LineItemExpenseFields": [
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Price Summary",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Fare",
+                    "Confidence": 99.97993469238281
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Amount",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "£298.10",
+                    "Confidence": 99.97920227050781
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "EXPENSE_ROW",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Fare £298.10",
+                    "Confidence": 99.98001098632812
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ExpenseIndex": 2,
+      "SummaryFields": [
+        {
+          "Type": {
+            "Text": "VENDOR_URL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_URL",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Trip.com Travel Singapore Pte. Ltd.",
+            "Confidence": 31.843090057373047
+          }
+        }
+      ]
+    }
+  ]
+}

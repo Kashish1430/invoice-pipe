@@ -1,0 +1,11 @@
+# MVP fixed FX table. Rates are expressed as "units of <source currency> per 1 GBP",
+# so conversion is always: gbp_amount = source_amount / rate.
+# Replace with a rates-API lookup keyed on invoice date when the MVP graduates.
+
+as_of: "2026-09-09"
+base: GBP
+rates:
+  INR_GBP: 125
+  USD_GBP: 1.27
+  EUR_GBP: 1.17
+  GBP_GBP: 1

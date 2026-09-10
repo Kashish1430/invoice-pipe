@@ -1,0 +1,368 @@
+{
+  "JobStatus": "SUCCEEDED",
+  "DocumentMetadata": {
+    "Pages": 1
+  },
+  "ExpenseDocuments": [
+    {
+      "ExpenseIndex": 1,
+      "SummaryFields": [
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Company",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "VFS Global Services Pvt. Ltd.",
+            "Confidence": 98.6
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Address",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Ground Floor, Abhijit-VI, Near Parimal Garden Cross Road, Off C G Road, Ahmedabad 380006, India",
+            "Confidence": 96.2
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_ID",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Invoice Number:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "2324GBRAMD125920",
+            "Confidence": 99.1
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Docket Number:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "GBR/AMD/220124/0001",
+            "Confidence": 97.8
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_DATE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Date:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "2024-01-22 08:19:00 AM",
+            "Confidence": 95.4
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Applicant Name:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "' ( 9 . ,  + , 7 ( 6 +  1 $  7 +",
+            "Confidence": 41.2
+          }
+        },
+        {
+          "Type": {
+            "Text": "TOTAL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Grand Total:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "0.00",
+            "Confidence": 97.3
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Amount:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "1 1 1,333.00",
+            "Confidence": 88.0
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Total Visa Fees:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "0.00",
+            "Confidence": 96.9
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Total VFS Service Fees:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "0.00",
+            "Confidence": 96.5
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Total VAS Fees:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "0.00",
+            "Confidence": 96.4
+          }
+        },
+        {
+          "Type": {
+            "Text": "TAX",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Total CGST:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "0.00",
+            "Confidence": 96.8
+          }
+        },
+        {
+          "Type": {
+            "Text": "TAX",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Total SGST:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "0.00",
+            "Confidence": 96.7
+          }
+        },
+        {
+          "Type": {
+            "Text": "PAYMENT_TERMS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Mode of Payment:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "ONLINE",
+            "Confidence": 98.2
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Company GSTN:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "24AACCC7513P1ZH",
+            "Confidence": 97.1
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Visa Category:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Tier 4 Student",
+            "Confidence": 96.0
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Application Ref No:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "GWF075000514",
+            "Confidence": 95.8
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Email:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "nathdevki.ndh@gmail.com",
+            "Confidence": 97.4
+          }
+        }
+      ],
+      "LineItemGroups": [
+        {
+          "LineItemGroupIndex": 1,
+          "LineItems": [
+            {
+              "LineItemExpenseFields": [
+                {
+                  "Type": {
+                    "Text": "ITEM",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Service Description",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Document Scanning Assistance (Paid Online) - SAC Code: (SAC:998599)",
+                    "Confidence": 95.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "PRICE",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Amount",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "",
+                    "Confidence": 95.0
+                  }
+                }
+              ]
+            },
+            {
+              "LineItemExpenseFields": [
+                {
+                  "Type": {
+                    "Text": "ITEM",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Service Description",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "SMS Service (Paid Online) - SAC Code: (SAC:998599)",
+                    "Confidence": 95.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "PRICE",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Amount",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "",
+                    "Confidence": 95.0
+                  }
+                }
+              ]
+            },
+            {
+              "LineItemExpenseFields": [
+                {
+                  "Type": {
+                    "Text": "ITEM",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Service Description",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Super Priority Visa (Paid Online) - SAC Code: (SAC:998599)",
+                    "Confidence": 95.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "PRICE",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Amount",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "",
+                    "Confidence": 95.0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

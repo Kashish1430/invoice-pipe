@@ -1,0 +1,64 @@
+# Invoice pipeline runtime settings.
+# Every value here is overridable per-environment; nothing in src/ hardcodes these.
+
+aws:
+  region: eu-west-2
+  # PDFs are staged here because Textract's async APIs only accept S3 objects.
+  # Used by the local-file flow (run_batch --raw-dir): a PDF starts on disk
+  # and gets uploaded here right before Textract reads it.
+  s3_bucket: invoice-pipe-staging
+  s3_incoming_prefix: incoming
+  # Canonical, date-partitioned raw store: s3://<bucket>/<prefix_template>.
+  # Used by the S3-sourced flow (run_batch --from-s3): files already live
+  # here permanently, so nothing gets re-uploaded -- Textract reads them
+  # directly at this location.
+  s3_raw_bucket: invoice-pipe
+  # Matches the console layout as actually created: raw/2026/5/14, unpadded
+  # month/day under a fixed "raw/" root. Note the unpadded month sorts wrong
+  # lexicographically once a month hits double digits (e.g. "10" < "5" as
+  # strings) -- fine for a single fixed demo date, worth re-padding before
+  # this is a real running daily batch.
+  s3_raw_prefix_template: "raw/{year}/{month}/{day}/"
+
+textract:
+  # Below this Textract Confidence (0-100) a successfully-typed field still
+  # raises the LOW_FIELD_CONFIDENCE soft warning (Stage 3 rule table).
+  low_confidence_threshold: 60.0
+  # Below this, LineItemGroups/SummaryFields are treated as unusable and the
+  # AnalyzeDocument FORMS+TABLES fallback is invoked on the same S3 object.
+  fallback_confidence_threshold: 50.0
+  poll_interval_seconds: 2.0
+  poll_timeout_seconds: 300.0
+
+bedrock:
+  # Cheap model is the default; escalation model is used only on a validation retry.
+  # "eu." not "us." -- these are cross-region inference profiles, and only
+  # the geography matching aws.region (eu-west-2) can be invoked from here.
+  # Confirmed via bedrock.list_inference_profiles() against the real account;
+  # a "us." profile fails with ValidationException: invalid model identifier.
+  model_id: eu.anthropic.claude-haiku-4-5-20251001-v1:0
+  escalation_model_id: eu.anthropic.claude-sonnet-5
+  max_tokens: 4096
+  temperature: 0.0
+  # Number of retries of the mapping call before EXTRACTION_FAILED is raised.
+  max_retries: 1
+
+storage:
+  table_name: invoice_records_dev
+  schema_version: 1
+
+paths:
+  raw: data/raw
+  silver: data/silver
+  gold: data/gold
+  quarantine: data/quarantine
+
+pipeline:
+  # The business date a `--from-s3` batch processes: it reads
+  # s3://<s3_raw_bucket>/<this date, formatted per s3_raw_prefix_template>/.
+  # Production behavior is date.today() -- leave this null/absent for that.
+  # Set here only to pin discovery against one specific day's partition, e.g.
+  # for a backfill or to demo the day-partitioned layout on a fixed date
+  # regardless of when the code actually runs. The --batch-date CLI flag
+  # overrides this per-invocation without editing the file.
+  batch_date_override: "2026-05-14"

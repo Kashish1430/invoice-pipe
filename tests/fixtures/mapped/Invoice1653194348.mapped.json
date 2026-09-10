@@ -1,0 +1,43 @@
+{
+  "fields": {
+    "date": "22-05-2022",
+    "company_name": "Gym Lounge",
+    "buyer_name": "DEVKI NATH",
+    "invoice_reference_number": "Gym Lounge//2022-2023/240",
+    "product_name": "Gym Workout",
+    "product_amount": "15000.00",
+    "total_amount": "6000.00",
+    "vat_tax_label": "SGST+CGST",
+    "vat_tax_percentage": "9%+9%",
+    "vat_tax_amount": "0.00",
+    "coupon_discount_amount": "9000.00",
+    "mode_of_payment": "Cash",
+    "currency": "INR"
+  },
+  "source_labels": {
+    "date": "Invoice Date:",
+    "company_name": "Company",
+    "buyer_name": "Bill To:",
+    "invoice_reference_number": "Tax Invoice",
+    "product_name": "Plan Name",
+    "product_amount": "Selected Plans Total:",
+    "total_amount": "Payable Amount:",
+    "vat_tax_label": "SGST(9%):",
+    "vat_tax_percentage": "SGST(9%):",
+    "vat_tax_amount": "SGST(9%):",
+    "coupon_discount_amount": "Discount",
+    "mode_of_payment": "Payment Mode"
+  },
+  "unmapped_metadata": {
+    "address": "4th Floor, Shyam Enclave, Opp. Green Mewada Party Plot, New Naroda, Ahmedabad, Gujarat, 382330",
+    "buyer_address": "C/401, SHRUSHTI LEVIS, NR. DEVSYA SCHOOL, D-MART ROAD, NARODA",
+    "gst_no": "null",
+    "sac_code": "999723",
+    "client_id": "2275"
+  },
+  "multiple_total_candidates": true,
+  "notes": "'Sub Total: 6000.00' is post-discount, so product_amount takes the pre-discount 'Selected Plans Total: 15000.00'. Rejected 'Amount Paid' and 'Balance Amount' as the final payable. SGST and CGST both print a 9% rate against a 0.00 amount. The vendor's GST number is the literal string 'null'.",
+  "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "source": "bedrock",
+  "attempts": 1
+}

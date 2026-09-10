@@ -1,0 +1,44 @@
+{
+  "fields": {
+    "date": "October 6, 2025",
+    "company_name": "Trip.com Travel Singapore Pte. Ltd.",
+    "buyer_name": "NIDHI MUKESHBHAI VEKARIYA",
+    "invoice_reference_number": "1653709449673763",
+    "product_name": "Fare",
+    "product_amount": "£298.10",
+    "total_amount": "£607.40",
+    "vat_tax_label": "Taxes & fees",
+    "vat_tax_percentage": "N/A",
+    "vat_tax_amount": "£309.30",
+    "coupon_discount_amount": "0",
+    "mode_of_payment": "Card",
+    "currency": "GBP"
+  },
+  "source_labels": {
+    "date": "Date of Booking:",
+    "company_name": "VENDOR_NAME",
+    "buyer_name": "Contact Name",
+    "invoice_reference_number": "Booking No.",
+    "product_name": "Price Summary",
+    "product_amount": "Amount",
+    "total_amount": "Total (American Express card (credit) 341266***01)",
+    "vat_tax_label": "Taxes & fees",
+    "vat_tax_amount": "Taxes & fees",
+    "mode_of_payment": "Total (American Express card (credit) 341266***01)",
+    "currency": "Total (American Express card (credit) 341266***01)"
+  },
+  "unmapped_metadata": {
+    "contact_name": "NIDHI MUKESHBHAI VEKARIYA",
+    "phone": "098-2945260862",
+    "email": "hmve****ya99@gmail.com",
+    "company_registration_number": "201613701E",
+    "booking_time": "7:54 AM, October 6, 2025 (GMT+8)"
+  },
+  "multiple_total_candidates": false,
+  "notes": "Date extracted from \"Date of Booking:\" field, time component removed per instructions. Mode of payment inferred as \"Card\" from the total amount label mentioning \"American Express card (credit)\". Currency inferred as GBP from the £ symbol throughout the document.",
+  "model_id": "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "source": "bedrock",
+  "attempts": 1,
+  "input_tokens": 4274,
+  "output_tokens": 719
+}

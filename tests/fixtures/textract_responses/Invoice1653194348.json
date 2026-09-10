@@ -1,0 +1,388 @@
+{
+  "JobStatus": "SUCCEEDED",
+  "DocumentMetadata": {
+    "Pages": 1
+  },
+  "ExpenseDocuments": [
+    {
+      "ExpenseIndex": 1,
+      "SummaryFields": [
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Company",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Gym Lounge",
+            "Confidence": 98.7
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Address",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "4th Floor, Shyam Enclave, Opp. Green Mewada Party Plot, New Naroda, Ahmedabad, Gujarat, 382330",
+            "Confidence": 95.6
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_ID",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Tax Invoice",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Gym Lounge//2022-2023/240",
+            "Confidence": 96.4
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Invoice/Receipt No.",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Gym Lounge/ / 2022- 2023/ 240",
+            "Confidence": 91.2
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_DATE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Invoice Date:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "22-05-2022",
+            "Confidence": 98.2
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Bill To:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "DEVKI NATH",
+            "Confidence": 98.0
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "To:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "C/401, SHRUSHTI LEVIS, NR. DEVSYA SCHOOL, D-MART ROAD, NARODA",
+            "Confidence": 94.3
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Selected Plans Total:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "15000.00",
+            "Confidence": 97.9
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Discount",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "9000.00",
+            "Confidence": 97.1
+          }
+        },
+        {
+          "Type": {
+            "Text": "SUBTOTAL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Sub Total:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "6000.00",
+            "Confidence": 98.3
+          }
+        },
+        {
+          "Type": {
+            "Text": "TAX",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "SGST(9%):",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "0.00",
+            "Confidence": 97.5
+          }
+        },
+        {
+          "Type": {
+            "Text": "TAX",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "CGST(9%):",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "0.00",
+            "Confidence": 97.4
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Surcharge(%):",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "0.00",
+            "Confidence": 96.2
+          }
+        },
+        {
+          "Type": {
+            "Text": "TOTAL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Payable Amount:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "6000.00",
+            "Confidence": 98.6
+          }
+        },
+        {
+          "Type": {
+            "Text": "AMOUNT_PAID",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Amount Paid:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "6000.00",
+            "Confidence": 98.4
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Balance Amount:",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "0.00",
+            "Confidence": 97.0
+          }
+        },
+        {
+          "Type": {
+            "Text": "PAYMENT_TERMS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Payment Mode",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Cash",
+            "Confidence": 97.8
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "GST NO :",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "null",
+            "Confidence": 93.5
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "SAC CODE :",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "999723",
+            "Confidence": 96.6
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Client Id :",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "2275",
+            "Confidence": 96.1
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Place of Supply :",
+            "Confidence": 98.0
+          },
+          "ValueDetection": {
+            "Text": "Gujarat",
+            "Confidence": 96.8
+          }
+        }
+      ],
+      "LineItemGroups": [
+        {
+          "LineItemGroupIndex": 1,
+          "LineItems": [
+            {
+              "LineItemExpenseFields": [
+                {
+                  "Type": {
+                    "Text": "ITEM",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Plan Name",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Gym Workout",
+                    "Confidence": 95.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "OTHER",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Duration",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "12 Months",
+                    "Confidence": 95.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "QUANTITY",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Sessions",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "360",
+                    "Confidence": 95.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "PRICE",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Amount",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "15000.00",
+                    "Confidence": 95.0
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "DISCOUNT",
+                    "Confidence": 98.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Discount",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "9000.00",
+                    "Confidence": 95.0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

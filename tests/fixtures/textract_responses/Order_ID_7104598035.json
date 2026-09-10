@@ -1,0 +1,528 @@
+{
+  "JobStatus": "SUCCEEDED",
+  "DocumentMetadata": {
+    "Pages": 1
+  },
+  "ExpenseDocuments": [
+    {
+      "ExpenseIndex": 1,
+      "SummaryFields": [
+        {
+          "Type": {
+            "Text": "ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Delivery Address:",
+            "Confidence": 96.16990661621094
+          },
+          "ValueDetection": {
+            "Text": "c-401 shrusti avis,nr.devasya international school, opp.shyam villa-\n2, nikol naroda road., New India Colony",
+            "Confidence": 94.9036865234375
+          }
+        },
+        {
+          "Type": {
+            "Text": "STREET",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Delivery Address:",
+            "Confidence": 98.19108581542969
+          },
+          "ValueDetection": {
+            "Text": "c-401 shrusti avis,nr.devasya international school, opp.shyam villa-\n2, nikol naroda road., New India Colony",
+            "Confidence": 96.89825439453125
+          }
+        },
+        {
+          "Type": {
+            "Text": "ADDRESS_BLOCK",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "ADDRESS_BLOCK",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "c-401 shrusti avis,nr.devasya international school, opp.shyam villa-\n2, nikol naroda road., New India Colony",
+            "Confidence": 96.89825439453125
+          }
+        },
+        {
+          "Type": {
+            "Text": "ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Restaurant Address:",
+            "Confidence": 70.81471252441406
+          },
+          "ValueDetection": {
+            "Text": "Shop 1, Fortune Plaza, Opposite Fortune Sky, Naroda, Ahmedabad",
+            "Confidence": 70.76461029052734
+          }
+        },
+        {
+          "Type": {
+            "Text": "STREET",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "STREET",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Shop 1, Fortune Plaza, Opposite Fortune Sky, Naroda,",
+            "Confidence": 99.89277648925781
+          }
+        },
+        {
+          "Type": {
+            "Text": "CITY",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "CITY",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Ahmedabad",
+            "Confidence": 99.92510986328125
+          }
+        },
+        {
+          "Type": {
+            "Text": "ADDRESS_BLOCK",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "ADDRESS_BLOCK",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "Shop 1, Fortune Plaza, Opposite Fortune Sky, Naroda, Ahmedabad",
+            "Confidence": 99.87480926513672
+          }
+        },
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Customer Name:",
+            "Confidence": 99.9683837890625
+          },
+          "ValueDetection": {
+            "Text": "Devki Nath",
+            "Confidence": 99.88573455810547
+          }
+        },
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Restaurant Name:",
+            "Confidence": 99.51434326171875
+          },
+          "ValueDetection": {
+            "Text": "Coffee Culture",
+            "Confidence": 99.49668884277344
+          }
+        },
+        {
+          "Type": {
+            "Text": "NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "zomato",
+            "Confidence": 96.44586181640625
+          }
+        },
+        {
+          "Type": {
+            "Text": "DISCOUNT",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "-\nCoupon (PAYTMUPI)",
+            "Confidence": 88.9292984008789
+          },
+          "ValueDetection": {
+            "Text": "()",
+            "Confidence": 98.281982421875
+          }
+        },
+        {
+          "Type": {
+            "Text": "DISCOUNT",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "-\nCoupon (TASTENEW)",
+            "Confidence": 85.980224609375
+          },
+          "ValueDetection": {
+            "Text": "(₹52.50)",
+            "Confidence": 99.85174560546875
+          }
+        },
+        {
+          "Type": {
+            "Text": "INVOICE_RECEIPT_ID",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Order ID:",
+            "Confidence": 99.59233093261719
+          },
+          "ValueDetection": {
+            "Text": "7104598035",
+            "Confidence": 99.68508911132812
+          }
+        },
+        {
+          "Type": {
+            "Text": "ORDER_DATE",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Order Time:",
+            "Confidence": 99.96266174316406
+          },
+          "ValueDetection": {
+            "Text": "25 July 2025,",
+            "Confidence": 99.75885772705078
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Delivery Address:",
+            "Confidence": 96.16990661621094
+          },
+          "ValueDetection": {
+            "Text": "c-401 shrusti avis,nr.devasya international school, opp.shyam villa-\n2, nikol naroda road., New India Colony",
+            "Confidence": 94.9036865234375
+          }
+        },
+        {
+          "Type": {
+            "Text": "RECEIVER_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Customer Name:",
+            "Confidence": 99.9683837890625
+          },
+          "ValueDetection": {
+            "Text": "Devki Nath",
+            "Confidence": 99.88573455810547
+          }
+        },
+        {
+          "Type": {
+            "Text": "SUBTOTAL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Delivery charge subtotal",
+            "Confidence": 85.97241973876953
+          },
+          "ValueDetection": {
+            "Text": "₹49",
+            "Confidence": 85.9695053100586
+          }
+        },
+        {
+          "Type": {
+            "Text": "TAX",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Taxes",
+            "Confidence": 99.06034088134766
+          },
+          "ValueDetection": {
+            "Text": "₹9.43",
+            "Confidence": 99.04509735107422
+          }
+        },
+        {
+          "Type": {
+            "Text": "TOTAL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Total",
+            "Confidence": 99.96776580810547
+          },
+          "ValueDetection": {
+            "Text": "₹235.93",
+            "Confidence": 99.462158203125
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_ADDRESS",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Restaurant Address:",
+            "Confidence": 70.81471252441406
+          },
+          "ValueDetection": {
+            "Text": "Shop 1, Fortune Plaza, Opposite Fortune Sky, Naroda, Ahmedabad",
+            "Confidence": 70.76461029052734
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Restaurant Name:",
+            "Confidence": 99.51434326171875
+          },
+          "ValueDetection": {
+            "Text": "Coffee Culture",
+            "Confidence": 99.49668884277344
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_NAME",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "zomato",
+            "Confidence": 96.44586181640625
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_URL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_URL",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "(https: //www.zomato.com/policies/terms-of-servicel)",
+            "Confidence": 92.5736083984375
+          }
+        },
+        {
+          "Type": {
+            "Text": "VENDOR_URL",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "VENDOR_URL",
+            "Confidence": 0.0
+          },
+          "ValueDetection": {
+            "Text": "https: //foscos.fssai.gov.in/",
+            "Confidence": 80.95134735107422
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Delivery partner's Name:",
+            "Confidence": 99.96915435791016
+          },
+          "ValueDetection": {
+            "Text": "Rathod Mahendrasinh Kesarsinh",
+            "Confidence": 99.97286224365234
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Surge fee",
+            "Confidence": 99.82325744628906
+          },
+          "ValueDetection": {
+            "Text": "₹15",
+            "Confidence": 99.82279205322266
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Restaurant Packaging Charges",
+            "Confidence": 99.64202880859375
+          },
+          "ValueDetection": {
+            "Text": "₹30",
+            "Confidence": 99.64107513427734
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Platform fee",
+            "Confidence": 99.91751098632812
+          },
+          "ValueDetection": {
+            "Text": "₹10",
+            "Confidence": 99.88439178466797
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Terms & Conditions (https: //www.zomato.com/policies/terms-of-servicel) :",
+            "Confidence": 93.13184356689453
+          },
+          "ValueDetection": {
+            "Text": "1. W.e.f. 1 January 2022, for items ordered where Eternal is obligated to raise a tax invoice on behalf of the Restaurant, it can be downloaded from the link\nprovided in email containing order summary. For other products in the order that are not covered in Eternal issued tax invoice, tax invoice will be provided\nby the Restaurant Partner directly.\n2. The delivery charge and delivery surge are collected by Eternal on behalf of the person or entity undertaking delivery of this order.\n3. If you have any issues or queries in respect of your order, please contact the customer chat support through Eternal platform.\n4. In case you need to get more information about restaurant's FSSAI status, please visit https: //foscos.fssai.gov.in/ and use the FBO search option with the\nFSSAI License / Registration number.\n5. Please note that we do not have a customer care phone number and we never ask for any bank account details such as CVV, account number, UPI Pin\netc. across our other support channels. For your safety please do not share these details with anyone over any medium.",
+            "Confidence": 98.08940887451172
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Lic. No.",
+            "Confidence": 99.70723724365234
+          },
+          "ValueDetection": {
+            "Text": "20721037004960",
+            "Confidence": 99.91696166992188
+          }
+        },
+        {
+          "Type": {
+            "Text": "OTHER",
+            "Confidence": 99.0
+          },
+          "LabelDetection": {
+            "Text": "Lic. No.",
+            "Confidence": 99.92857360839844
+          },
+          "ValueDetection": {
+            "Text": "10019064001810",
+            "Confidence": 99.94588470458984
+          }
+        }
+      ],
+      "LineItemGroups": [
+        {
+          "LineItemGroupIndex": 1,
+          "LineItems": [
+            {
+              "LineItemExpenseFields": [
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Item",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Masala Soda",
+                    "Confidence": 99.96463775634766
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Quantity",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "1",
+                    "Confidence": 99.66207885742188
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Unit Price",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "₹175",
+                    "Confidence": 99.73087310791016
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "Total Price",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "₹175",
+                    "Confidence": 99.54588317871094
+                  }
+                },
+                {
+                  "Type": {
+                    "Text": "",
+                    "Confidence": 99.0
+                  },
+                  "LabelDetection": {
+                    "Text": "EXPENSE_ROW",
+                    "Confidence": 97.0
+                  },
+                  "ValueDetection": {
+                    "Text": "Masala Soda 1 ₹175 ₹175",
+                    "Confidence": 99.77351379394531
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

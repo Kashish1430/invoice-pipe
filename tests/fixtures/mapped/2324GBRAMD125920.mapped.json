@@ -1,0 +1,40 @@
+{
+  "fields": {
+    "date": "2024-01-22",
+    "company_name": "VFS Global Services Pvt. Ltd.",
+    "buyer_name": "' ( 9 . ,  + , 7 ( 6 +  1 $  7 +",
+    "invoice_reference_number": "2324GBRAMD125920",
+    "product_name": "Document Scanning Assistance (Paid Online); SMS Service (Paid Online); Super Priority Visa (Paid Online)",
+    "product_amount": "0.00",
+    "total_amount": "0.00",
+    "vat_tax_label": "CGST+SGST",
+    "vat_tax_percentage": "N/A",
+    "vat_tax_amount": "0.00",
+    "coupon_discount_amount": "0",
+    "mode_of_payment": "ONLINE",
+    "currency": "INR"
+  },
+  "source_labels": {
+    "date": "Date:",
+    "company_name": "Company",
+    "buyer_name": "Applicant Name:",
+    "invoice_reference_number": "Invoice Number:",
+    "product_name": "Service Description",
+    "total_amount": "Grand Total:",
+    "vat_tax_label": "Total CGST:",
+    "vat_tax_amount": "Total CGST:",
+    "mode_of_payment": "Mode of Payment:"
+  },
+  "unmapped_metadata": {
+    "address": "Ground Floor, Abhijit-VI, Near Parimal Garden Cross Road, Off C G Road, Ahmedabad 380006, India",
+    "gstn": "24AACCC7513P1ZH",
+    "docket_number": "GBR/AMD/220124/0001",
+    "visa_category": "Tier 4 Student",
+    "application_ref_no": "GWF075000514"
+  },
+  "multiple_total_candidates": true,
+  "notes": "Document contradicts itself: 'Grand Total: 0.00' against 'Amount: 1 1 1,333.00' in the payment block. Took the figure carrying the canonical Grand Total label. Applicant name is garbled by a corrupted font mapping and is passed through as-is.",
+  "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "source": "bedrock",
+  "attempts": 1
+}

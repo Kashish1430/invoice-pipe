@@ -1,0 +1,40 @@
+{
+  "fields": {
+    "date": "12 Apr 2026",
+    "company_name": "Bharti Airtel Limited",
+    "buyer_name": "Mrs. Devki Hiteshbhai Nath",
+    "invoice_reference_number": "HF2724I000304106",
+    "product_name": "499 WiFi_40Mbps (Monthly Rental); Late Payment Charges for Mar-2026; Xstream Play Subscription Renewal",
+    "product_amount": "698.00",
+    "total_amount": "805.82",
+    "vat_tax_label": "GST",
+    "vat_tax_percentage": "N/A",
+    "vat_tax_amount": "107.82",
+    "coupon_discount_amount": "0",
+    "mode_of_payment": "Airtel Pay (PayU)",
+    "currency": "INR"
+  },
+  "source_labels": {
+    "date": "Bill Date",
+    "company_name": "For",
+    "buyer_name": "Billing Address",
+    "invoice_reference_number": "Bill NO",
+    "product_name": "Your Plan:",
+    "total_amount": "Total Amount Payable:",
+    "vat_tax_label": "Taxes (GST)",
+    "vat_tax_amount": "Taxes (GST)",
+    "mode_of_payment": "Payment via"
+  },
+  "unmapped_metadata": {
+    "address": "C-401, Srushti Levis, Nikol, Ahmedabad, Gujarat, 380038",
+    "account_no": "7042968270",
+    "statement_period": "11 Mar 2026 to 10 Apr 2026",
+    "due_date": "22 Apr 2026",
+    "place_of_supply": "Gujarat"
+  },
+  "multiple_total_candidates": true,
+  "notes": "Six competing figures: last bill amount 1611.64, payment made -1611.64, this month's charges 805.82, amount after due date 923.82, 'Total Amount' 706.82 (pre other-charges) and grand total 805.82. Took 'Total Amount Payable' as the canonical final payable. product_amount 698.00 is the pre-tax plan + other charges (499.00 + 199.00), which reconciles: 698.00 + 107.82 tax = 805.82.",
+  "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "source": "bedrock",
+  "attempts": 1
+}
